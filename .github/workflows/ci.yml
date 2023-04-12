@@ -3,8 +3,7 @@ name: ci
 on:
   push:
     branches:
-      - main
-  schedule:
+      - main  schedule:
     - cron: "* * * * *"
 
 jobs:
