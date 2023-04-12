@@ -46,8 +46,7 @@
 
 若出现GitHub Actions Error: Process completed with exit code 128.错误，是因为 GitHub Actions 试图将修改的操作提交到仓库，但是被拒绝。
 请为你的工作流配置文件添加一个启用写入的权限配置例如下：
-# 启用写入
-permissions:
+  permissions:
   contents: write
 
 
