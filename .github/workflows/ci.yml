@@ -6,6 +6,7 @@ on:
      - main
   schedule:
     - cron: "* * * * *"
+    #启用写入
 permissions:
   contents: write
 
