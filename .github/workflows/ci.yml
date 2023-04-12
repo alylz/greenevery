@@ -5,7 +5,7 @@ on:
     branches:
      - main
   schedule:
-    - cron: "11 11 * * *"
+    - cron: "01 0 * * *"
     #启用写入
 permissions:
   contents: write
